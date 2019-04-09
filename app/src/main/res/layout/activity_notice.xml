@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticeActivity">
+    <ImageView
+        android:id="@+id/noticesplash"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/splash_icon2"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructions"
+        android:layout_below="@id/noticesplash"
+        android:layout_marginTop="15dp"
+        android:text="Instructions"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructionlinear"
+        android:layout_below="@id/instructions"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1) Grab bees and algaes for bump in points"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="2)Red Octopus is hungry for the fish and costs 1 life for fish"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="3) Beware of bombs as fish will be killed without any lives"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+    <com.ncorti.slidetoact.SlideToActView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slidetounlock"
+        android:layout_below="@+id/instructionlinear"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:elevation="10dp"
+        app:area_margin="8dp"
+        app:inner_color="@android:color/white"
+        app:outer_color="@android:color/holo_blue_dark"
+        app:text="Swipe To Start"
+        />
+
+</RelativeLayout>

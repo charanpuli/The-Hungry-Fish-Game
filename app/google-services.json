@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "280543113263",
+    "firebase_url": "https://hungry-fish-1c545.firebaseio.com",
+    "project_id": "hungry-fish-1c545",
+    "storage_bucket": "hungry-fish-1c545.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280543113263:android:15ae76002a321392",
+        "android_client_info": {
+          "package_name": "com.example.charanpuli.fish_baller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280543113263-h4vfe1dbdae5sgqtolgd571o0tpt21mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.charanpuli.fish_baller",
+            "certificate_hash": "62e05c7736220f59c939b7f3bac514bbb680376b"
+          }
+        },
+        {
+          "client_id": "280543113263-bln04vgdv4rje20g2imhq4jtjb13vm2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgyfxFp7Kwo2YbYHFj1rzystuzsz2WceU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280543113263-bln04vgdv4rje20g2imhq4jtjb13vm2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

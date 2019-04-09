@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityGameOver"
+    android:background="@drawable/splash">
+
+    <TextView
+        android:id="@+id/gameoverid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Over"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        />
+    <TextView
+        android:id="@+id/yourscoreid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score : "
+        android:textSize="30dp"
+        android:layout_below="@id/gameoverid"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/scoreid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:textSize="40dp"
+        android:layout_below="@id/yourscoreid"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscoreid"
+        android:layout_below="@id/scoreid"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/playagainbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Play Again"
+        android:textSize="20dp"
+        android:layout_below="@+id/highscoreid"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+    <Button
+        android:id="@+id/tellurfrndbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tell Your Friends"
+        android:textSize="20dp"
+        android:layout_below="@+id/playagainbtn"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backbtn"
+       android:layout_alignParentEnd="true"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="back"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
